@@ -1,0 +1,46 @@
+# Hugo default output directory
+/public/
+
+# Hugo generated resources
+/resources/_gen/
+/resources/_gen/assets/
+/resources/_gen/images/
+
+# Hugo build lock
+.hugo_build.lock
+
+# Hugo cache
+hugo_stats.json
+
+# Node dependencies
+node_modules/
+package-lock.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
