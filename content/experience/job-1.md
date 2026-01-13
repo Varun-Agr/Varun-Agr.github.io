@@ -1,20 +1,23 @@
 ---
 date: 2022-12-01T00:00:00+01:00
 draft: false
-title: "Job #1"
-jobTitle: "Junior Intern"
-company: "Internet Affairs Inc. "
-location: "Stavanger, Norway"
-duration: "2022-2024"
-companyLogo: "images/experience/internet-affairs.png"
+title: "Senior Recruitment Consultant"
+jobTitle: ""
+company: "Talent Consultancy Projects"
+location: "New Delhi, India"
+duration: "Mar 2021 - Aug 2022"
+companyLogo: ""
 
 ---
-## 1st job: Junior Intern
 
-The beginning of a great career. As a Junior Intern at Internet Affairs Inc., I had the opportunity to work on various projects that helped me develop my technical and professional skills. Working alongside experienced developers, I contributed to the company's core web applications and learned industry best practices in software development.
+<!-- - Led end-to-end talent recruitment operations for the India iteration of the Atlas Fellowship cycle;
+managed 15 staff members for data engineering, relationship-building, mass outreach; connected with
+60,000 students across 8000 schools, and sourced 20 precocious students, of whom 5 were selected.
 
-During my internship, I took the initiative to create an internal documentation wiki that improved knowledge sharing across teams. This project taught me valuable lessons in technical writing and collaboration. I also participated in code reviews and daily stand-ups, gaining firsthand experience in agile development methodologies.
+- Supported the UK iteration of the Atlas Fellowship search in setting up innovative marketing strategies.
 
-My most notable achievement was developing an automated testing script that reduced QA time by 25%. This project not only improved team efficiency but also demonstrated my ability to identify problems and implement effective solutions. Additionally, I actively participated in the company's mentorship program, where I helped onboard new interns and shared my growing knowledge with peers.
+- Reviewed 100+ moonshot ideas, 400+ high EV pitches for the Future Forum as applications co-lead.
+ -->
 
-Through these experiences, I built a strong foundation in software development and professional collaboration, setting the stage for my advancement to more senior roles within the company.
+- Led talent recruitment operations for Atlas Fellowship India: managed 15-member team to connect with 60,000 students across 8,000 schools, sourcing 20 candidates with 5 selected; additionally supported UK operations and reviewed 500+ high-impact pitches for Future Forum.
+

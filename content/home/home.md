@@ -23,7 +23,7 @@ draft = false
     <!-- {{< link icon="dribbble" url="#" >}}
     {{< link icon="behance" url="#" >}}
     {{< link icon="youtube" url="#" >}} -->
-    {{< link icon="instagram" url="https://www.instagram.com/zetxek/" >}}
+    <!-- {{< link icon="instagram" url="https://www.instagram.com/zetxek/" >}} -->
     <!-- {{< link icon="square-facebook" url="https://www.facebook.com/zetxek/" >}} -->
     <!-- {{< link icon="codepen" url="#" >}} -->
     <!-- {{< link icon="yelp" url="https://www.yelp.com/" >}} -->
@@ -51,44 +51,42 @@ draft = false
 
 {{< education-list
     title="Formal Education" >}}
-
+<!-- 
 {{< experience-section
-    title="My job experience (title)"
-    intro_title="Intro (intro_title)"
-    intro_description="Description (intro_description).<br>You can use HTML,with <strong>strong</strong> formatting, or lists <ul><li>one</li><li>two</li></ul>" 
+    title="Experience"
+    intro_title="d"
+    intro_description="" 
+    hideViewAll="false"
     button1_url="https://example.com"
     button1_text="(1) Visit Example"
     button1_icon="icon-globe"
     button2_text="(2) Skills"
     button2_url="/skills"
-    hideViewAll="false"
->}}
+>}} -->
 
 {{< experience-list
-    title="Experience (as list)"
+    title="Experience"
     padding="false" >}}
 
 {{< client-and-work-section
-    title="A selection of my work" >}} 
+    title="My Projects" >}} 
 
 {{< testimonial-section
-    title="What they say about me" >}}
+    title="What They Say About Me" >}}
 
 {{< spacer size="large" >}}
 
-## Extra home content
+## For engineers, researchers, and visionaries
 
-Additional content added after the `section` blocks, in the `home.md` file. 
-
-Here you could freestyle, add other shortcodes, ...  Or just let the content empty, and rely on the shortcode sections alone.
+Reach out to Varun if you have a knack for solving hard problems and have an itch to have a long-lasting impact on the world and humanity at large.
 
 {{< spacer size="small" >}}
-
+<!-- 
 {{< text-section
 title="Extra (centered) content"
 centered="true"
->}}
+>}} -->
 
-You can also use the `text-section` shortcode to add centered texts
+<!-- You can also use the `text-section` shortcode to add centered texts -->
 
 {{< /text-section >}}
