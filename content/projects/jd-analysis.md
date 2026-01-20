@@ -11,11 +11,9 @@ params:
         btnText: "Case Study"
         URL: "https://www.adrianmoreno.info"
     image:
-        src: "images/works/robo-advisor.jpg"
-        scale: 0.5
+        src: "images/projects/jd/single_profile_bar.png"
+        scale: 0.3
     
 
 ## The content is used for the description of the project
 ---
-
-Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard.

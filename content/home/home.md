@@ -7,9 +7,9 @@ draft = false
 
 {{< showcase-section
     title="Hi! I'm Varun!"
-    subtitle="Senior technical talent recruiter"
+    subtitle="..."
     buttonText="Email"
-    description="I bring <strong>5+ years</strong> of experience sourcing, identifying, and evaluating top STEM talent (scientists, researchers, and engineers) so that you can assemble an A-team for your vision. I have helped frontier AI research labs like <strong>FAR.AI, UK AISI,</strong> and many others find the right person for their job. If this aligns with your vision, let's talk! Or check out my projects in more detail below!"
+    description="I bring <strong>7+ years</strong> of experience sourcing, identifying, and evaluating top STEM talent (scientists, researchers, and engineers) so that you can assemble an A-team for your vision. I have helped frontier AI research labs like <strong>FAR.AI, UK AISI,</strong> and many others find the right person for their job. If this aligns with your vision, let's talk! Or check out my projects in more detail below!"
     imgSrc="images/showcase/VA.png"
     imgScale="0.5"
  >}}
@@ -49,8 +49,8 @@ draft = false
     text_align="center"
  >}} -->
 
-{{< education-list
-    title="Formal Education" >}}
+<!-- {{< education-list
+    title="Formal Education" >}} -->
 <!-- 
 {{< experience-section
     title="Experience"
@@ -64,15 +64,18 @@ draft = false
     button2_url="/skills"
 >}} -->
 
-{{< experience-list
-    title="Experience"
-    padding="false" >}}
 
 {{< client-and-work-section
     title="My Projects" >}} 
 
-{{< testimonial-section
-    title="What They Say About Me" >}}
+    
+{{< experience-list
+    title="Experience"
+    padding="false" >}}
+
+
+<!-- {{< testimonial-section
+    title="What They Say About Me" >}} -->
 
 {{< spacer size="large" >}}
 

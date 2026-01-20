@@ -11,16 +11,10 @@ params:
         btnText: "Case Study"
         URL: "https://www.adrianmoreno.info"
     image:
-        src: "images/works/swissfintech.jpg"
+        src: "images/projects/recruitsynth/technical_synthesis_data_pipeline.jpg"
         scale: 0.5
     
 
 ## The content is used for the description of the project
 ---
 
-Here you can add additional context, description, links, etc. 
-The content you see here comes from the contents of the `content/projects` folder.
-
-This project is in the file `projects/swiss-fintech.md`.
-
-In the markdown file frontmatter you can also define additional parameters, such as the link:

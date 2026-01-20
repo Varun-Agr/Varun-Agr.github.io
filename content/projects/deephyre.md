@@ -11,10 +11,8 @@ params:
         btnText: "Case Study"
         URL: "https://www.adrianmoreno.info"
     image:
-        src: "images/works/radity-finance.jpg"
-        scale: 0.5
+        src: "images/projects/deephyre/mvp_funnel.jpg"
+        scale: 0.8
 
 ## The content is used for the description of the project
 ---
-
-We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech.
