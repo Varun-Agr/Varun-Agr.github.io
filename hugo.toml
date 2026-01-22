@@ -124,43 +124,43 @@ title = ''
 weight = 0
 
 [languages.en.menus]
+# [[languages.en.menus.header]]
+# name = "Home"
+# URL = "/"
+# weight = 1
 [[languages.en.menus.header]]
-name = "Home"
-URL = "/"
-weight = 1
-# [[languages.en.menus.header]]
-# name = 'About'
-# URL = '#about'
-# weight = 2
-# [[languages.en.menus.header]]
-# name = 'Skills'
-# URL = '/skills'
-# weight = 3
+name = 'Projects'
+URL = '#portfolio'
+weight = 2
+[[languages.en.menus.header]]
+name = 'India AI Tracker'
+URL = 'https://indiaaitracker.com'
+weight = 3
 # [[languages.en.menus.header]]
 # name = 'Portfolio'
 # URL = '#portfolio'
 # weight = 4
-#  [[languages.en.menus.header]]
-#  name = "Experience"
-#  URL = "#experience"
-#  weight = 4
+[[languages.en.menus.header]]
+name = "Experience"
+URL = "#experience"
+weight = 4
+
+[[languages.en.menus.header]]
+name = "SAFL"
+URL = "https://secureaifutureslab.in"
+weight = 5
 
 # [[languages.en.menus.header]]
-# name = "How to"
-# URL = "/blog"
-# weight = 5
+# pre = "email"
+# name = "email"
+# URL = "#contact"
+# weight = 6
 
-[[languages.en.menus.header]]
-pre = "email"
-name = "email"
-URL = "#contact"
-weight = 6
-
-[[languages.en.menus.header]]
-pre = "search"
-name = "Search"
-URL = "/search"
-weight = 7
+# [[languages.en.menus.header]]
+# pre = "search"
+# name = "Search"
+# URL = "/search"
+# weight = 7
 
 [[languages.en.menus.footer]]
 name = "Home"
@@ -435,9 +435,9 @@ weight = 4
 
 # CSS Plugins
 [[params.plugins.css]]
-URL = "css/custom.css"
-[[params.plugins.css]]
 URL = "css/adritian-icons.css"
+[[params.plugins.css]]
+URL = "css/custom.css"
 ## Print css
 [[params.plugins.css]]
 URL = "css/bootstrap-print.css"

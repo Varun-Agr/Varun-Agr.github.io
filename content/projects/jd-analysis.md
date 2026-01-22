@@ -17,3 +17,5 @@ params:
 
 ## The content is used for the description of the project
 ---
+
+Organisations often struggle to get great hires because their JDs are not properly structured or misunderstood. We undertook this project to cluster leading organisation JDs in order to give us a so-called <strong>"job fingerprint"</strong>.

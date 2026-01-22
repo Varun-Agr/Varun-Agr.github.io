@@ -9,17 +9,16 @@ draft = false
     title="Hi! I'm Varun!"
     subtitle="..."
     buttonText="Email"
-    description="I bring <strong>7+ years</strong> of experience sourcing, identifying, and evaluating top STEM talent (scientists, researchers, and engineers) so that you can assemble an A-team for your vision. I have helped frontier AI research labs like <strong>FAR.AI, UK AISI,</strong> and many others find the right person for their job. If this aligns with your vision, let's talk! Or check out my projects in more detail below!"
+    description="I bring <strong>7+ years</strong> of experience sourcing, identifying, and evaluating <strong>top 1%</strong> top STEM talent (scientists, researchers, and engineers) so that you can assemble an A-team for your vision. I have helped frontier AI research labs like <strong>FAR.AI, UK AISI,</strong> and many others find the right person for their job. If this aligns with your vision, let's talk! Or check out my projects in more detail below!"
     imgSrc="images/showcase/VA.png"
-    imgScale="0.5"
+    imgScale="0.23"
  >}}
 
 {{< platform-links >}}
     <!-- {{< link icon="square-facebook" url="https://facebook.com/yourpage" >}} -->
-    {{< link icon="square-twitter" url="https://x.com/Vaz_varun" >}}
     {{< link icon="linkedin" url="https://www.linkedin.com/in/varun-agrawal-b3367a31/" >}}
     {{< link icon="square-github" url="https://github.com/Varun-Agr" >}}
-    {{< link icon="x-twitter" url="https://twitter.com/zetxek" >}}
+    {{< link icon="x-twitter" url="https://x.com/Vaz_varun" >}}
     <!-- {{< link icon="dribbble" url="#" >}}
     {{< link icon="behance" url="#" >}}
     {{< link icon="youtube" url="#" >}} -->

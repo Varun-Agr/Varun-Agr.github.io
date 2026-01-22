@@ -1,26 +1,24 @@
 ---
-date: '2024-08-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
-title: 'Secure AI Futures Lab Hiring CRM'
+date: '2026-01-19T09:53:42+02:00' # date in which the content is created - defaults to "today"
+title: 'Secure AI Futures Lab (SAFL)'
 draft: false # set to "true" if you want to hide the content 
 
-link: "https://www.adrianmoreno.info" # optional URL to link the logo to
+link: "https://secureaifutureslab.in" # optional URL to link the logo to
 
 params:
     button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "https://www.adrianmoreno.info"
+        btnText: "Visit Site"
+        URL: "https://secureaifutureslab.in"
     image:
-        src: "images/works/swissfintech.jpg"
-        scale: 0.5
+        src: "images/projects/safl/safl1.png"
+        scale: 0.2  
     
 
 ## The content is used for the description of the project
 ---
 
-Here you can add additional context, description, links, etc. 
-The content you see here comes from the contents of the `content/projects` folder.
+<strong>Co-founder, SAFL</strong> 
 
-This project is in the file `projects/swiss-fintech.md`.
+SAFL is a dedicated node in India for advancing research talent around the safe and beneficial development and deployment of advanced AI systems. SAFL is currently based in New Delhi, India with plans to expand to other hubs in the APAC region.
 
-In the markdown file frontmatter you can also define additional parameters, such as the link:

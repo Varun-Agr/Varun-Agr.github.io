@@ -1,0 +1,24 @@
+/* Custom CSS overrides */
+
+/* Make social media icons in the banner bigger */
+.platform-links [class^=icon-] {
+    font-size: 32px !important; /* Increased from 17px/19px */
+    margin-right: 15px !important; /* Increased from 5px/10px for better spacing */
+}
+
+/* Adjust for larger screens */
+@media (min-width: 992px) {
+    .platform-links [class^=icon-] {
+        font-size: 36px !important; /* Even bigger on desktop */
+        margin-right: 20px !important;
+    }
+}
+
+/* Optional: Add hover effect to make them more interactive */
+.platform-links [class^=icon-] {
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.platform-links a:hover [class^=icon-] {
+    transform: scale(1.1);
+}

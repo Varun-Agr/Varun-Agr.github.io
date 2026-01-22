@@ -17,3 +17,5 @@ params:
 
 ## The content is used for the description of the project
 ---
+
+India is on its way to becoming the biggest supplier of AI talent to the world. In this light, it becomes crucial to understand the key governance and tech discussions precipitating in the country. We built a dedicated India AI tracker to track news, stakeholder decisions, investment sentiments, and technological innovations.
