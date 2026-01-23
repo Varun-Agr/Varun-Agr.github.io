@@ -3,13 +3,13 @@ date: '2024-08-25T09:53:42+02:00' # date in which the content is created - defau
 title: "Technical Recruitment - A Practitioner's Synthesis"
 draft: false # set to "true" if you want to hide the content 
 
-link: "" # optional URL to link the logo to
+link: "#" # optional URL to link the logo to
 
 params:
     button:
         icon: "icon-arrow-right"
         btnText: ""
-        URL: ""
+        URL: "#"
     image:
         src: "images/projects/recruitsynth/technical_synthesis_talent_index.jpg"
         scale: 0.4

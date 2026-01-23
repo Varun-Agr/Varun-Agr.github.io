@@ -22,3 +22,206 @@
 .platform-links a:hover [class^=icon-] {
     transform: scale(1.1);
 }
+
+/* ============================================
+   Banner/Showcase Animations
+   ============================================ */
+
+/* Initial state for showcase elements */
+.showcase-section .display-1,
+.showcase-section .display-5,
+.showcase-section .lead,
+.showcase-section .profile-image,
+.showcase-section .platform-links {
+    opacity: 0;
+}
+
+/* Heading animation - slide up and fade in */
+.showcase-section .display-1.animate-in {
+    animation: slideUpFade 0.8s ease-out forwards;
+}
+
+/* Subtitle animation - fade in with delay */
+.showcase-section .display-5.animate-in {
+    animation: fadeIn 0.8s ease-out 0.2s forwards;
+}
+
+/* Lead text animation - fade in with delay */
+.showcase-section .lead.animate-in {
+    animation: fadeIn 0.8s ease-out 0.4s forwards;
+}
+
+/* Profile image animation - fade in and subtle scale */
+.showcase-section .profile-image.animate-in {
+    animation: fadeInScale 1s ease-out 0.3s forwards;
+}
+
+/* Platform links container animation */
+.showcase-section .platform-links.animate-in {
+    opacity: 1;
+}
+
+/* Individual social icon animations - staggered */
+.showcase-section .platform-links.animate-in a {
+    display: inline-block;
+    opacity: 0;
+    animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.showcase-section .platform-links.animate-in a:nth-child(1) {
+    animation-delay: 0.6s;
+}
+
+.showcase-section .platform-links.animate-in a:nth-child(2) {
+    animation-delay: 0.75s;
+}
+
+.showcase-section .platform-links.animate-in a:nth-child(3) {
+    animation-delay: 0.9s;
+}
+
+.showcase-section .platform-links.animate-in a:nth-child(4) {
+    animation-delay: 1.05s;
+}
+
+/* Keyframe animations */
+@keyframes slideUpFade {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    .showcase-section .display-1,
+    .showcase-section .display-5,
+    .showcase-section .lead,
+    .showcase-section .profile-image,
+    .showcase-section .platform-links,
+    .showcase-section .platform-links a {
+        opacity: 1;
+        animation: none;
+        transform: none;
+    }
+}
+
+/* ============================================
+   Scroll Animations for Project Cards
+   ============================================ */
+
+/* Initial state - cards are invisible and positioned off-screen */
+.animate-on-scroll {
+    opacity: 0;
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Cards sliding from the left */
+.animate-on-scroll.slide-from-left {
+    transform: translateX(-100px);
+}
+
+/* Cards sliding from the right */
+.animate-on-scroll.slide-from-right {
+    transform: translateX(100px);
+}
+
+/* Animated state - cards are visible and in position */
+.animate-on-scroll.animated {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Add staggered animation delays for smoother effect */
+.animate-on-scroll.animated:nth-child(1) {
+    transition-delay: 0s;
+}
+
+.animate-on-scroll.animated:nth-child(2) {
+    transition-delay: 0.1s;
+}
+
+.animate-on-scroll.animated:nth-child(3) {
+    transition-delay: 0.2s;
+}
+
+.animate-on-scroll.animated:nth-child(4) {
+    transition-delay: 0.3s;
+}
+
+.animate-on-scroll.animated:nth-child(5) {
+    transition-delay: 0.4s;
+}
+
+.animate-on-scroll.animated:nth-child(6) {
+    transition-delay: 0.5s;
+}
+
+/* For users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .animate-on-scroll {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
+/* ============================================
+   Footer Section Animation
+   ============================================ */
+
+/* Footer title animation - slide from top */
+.footer-title-animate {
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.footer-title-animate.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* For users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .footer-title-animate {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}

@@ -3,13 +3,13 @@ date: '2024-08-25T09:53:42+02:00' # date in which the content is created - defau
 title: 'Tech Operations Intern Management System'
 draft: false # set to "true" if you want to hide the content 
 
-link: "" # optional URL to link the logo to
+link: "#" # optional URL to link the logo to
 
 params:
     button:
         icon: "icon-arrow-right"
         btnText: "Browse Gallery"
-        URL: ""
+        URL: "#"
     image:
         src: "images/projects/techops/TechOps.png"
         scale: 0.4

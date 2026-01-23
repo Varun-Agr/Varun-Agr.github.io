@@ -65,12 +65,14 @@ draft = false
 
 
 {{< client-and-work-section
-    title="My Projects" >}} 
+    title="My Projects"
+    sectionId="portfolio" >}} 
 
     
 {{< experience-list
     title="Experience"
-    padding="false" >}}
+    padding="false"
+    sectionId="experience" >}}
 
 
 <!-- {{< testimonial-section
@@ -92,3 +94,5 @@ centered="true"
 <!-- You can also use the `text-section` shortcode to add centered texts -->
 
 {{< /text-section >}}
+
+<script defer src="/js/scroll-animations.js"></script>

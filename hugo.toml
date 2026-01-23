@@ -449,6 +449,10 @@ URL = "js/rad-animations.js"
 URL = "js/sticky-header.js"
 [[params.plugins.js]]
 URL = "js/library/fontfaceobserver.js"
+# [[params.plugins.js]]
+# URL = "js/smooth-scroll.js"
+[[params.plugins.js]]
+URL = "js/scroll-animations.js"
 
 # SCSS Plugins
 [[params.plugins.scss]]
