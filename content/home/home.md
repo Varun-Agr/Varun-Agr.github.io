@@ -37,6 +37,8 @@ draft = false
 {{< /platform-links >}}
 {{< /showcase-section >}}
 
+{{< hiring-callout >}}
+
 <!-- {{< about-section
     title="About me"
     content="This content is using the <code>about-section</code> shortcode. <br/>You can write <code>HTML</code>, as long as you <em>wrap it</em> accordingly. "
@@ -96,3 +98,4 @@ centered="true"
 {{< /text-section >}}
 
 <script defer src="/js/scroll-animations.js"></script>
+<script defer src="/js/hiring-form.js"></script>

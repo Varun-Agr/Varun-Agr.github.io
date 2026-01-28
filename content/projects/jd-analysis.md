@@ -8,7 +8,7 @@ link: "#" # optional URL to link the logo to
 params:
     button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: ""
         URL: "#"
     image:
         # src: "images/projects/jd/single_profile_bar.png"

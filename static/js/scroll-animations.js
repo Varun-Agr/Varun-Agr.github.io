@@ -141,16 +141,51 @@
         window.addEventListener('resize', checkAndAnimateFooter, { passive: true });
     }
 
+    /**
+     * Initialize hiring callout animations
+     */
+    function initHiringCalloutAnimations() {
+        const calloutCard = document.querySelector('.hiring-callout .callout-card');
+        if (!calloutCard) return;
+
+        /**
+         * Check and animate callout card
+         */
+        function checkAndAnimateCallout() {
+            if (isInViewport(calloutCard, 100) && !calloutCard.classList.contains('animate-in')) {
+                calloutCard.classList.add('animate-in');
+            }
+        }
+
+        // Check on scroll
+        let scrollTimeout;
+        window.addEventListener('scroll', function() {
+            if (scrollTimeout) {
+                window.cancelAnimationFrame(scrollTimeout);
+            }
+            scrollTimeout = window.requestAnimationFrame(checkAndAnimateCallout);
+        }, { passive: true });
+
+        // Check on load
+        checkAndAnimateCallout();
+        setTimeout(checkAndAnimateCallout, 100);
+
+        // Check on window resize
+        window.addEventListener('resize', checkAndAnimateCallout, { passive: true });
+    }
+
     // Initialize when DOM is ready
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', function() {
             initScrollAnimations();
             initBannerAnimations();
             initFooterAnimations();
+            initHiringCalloutAnimations();
         });
     } else {
         initScrollAnimations();
         initBannerAnimations();
         initFooterAnimations();
+        initHiringCalloutAnimations();
     }
 })();
