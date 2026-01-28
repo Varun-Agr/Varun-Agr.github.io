@@ -12,7 +12,8 @@ params:
         URL: "#"
     image:
         src: "images/projects/recruitsynth/technical_synthesis_talent_index.jpg"
-        scale: 0.4
+        # src: "images/projects/recruitsynth/bp1.png"
+        scale: 0.6
     
 
 ## The content is used for the description of the project

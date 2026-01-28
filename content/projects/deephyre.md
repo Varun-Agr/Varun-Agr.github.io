@@ -11,8 +11,9 @@ params:
         btnText: "Case Study"
         URL: "#"
     image:
-        src: "images/projects/deephyre/mvp_funnel.jpg"
-        scale: 0.8
+        # src: "images/projects/deephyre/mvp_funnel.jpg"
+        src: "images/projects/deephyre/dh1.png"
+        scale: 0.15
 
 ## The content is used for the description of the project
 ---

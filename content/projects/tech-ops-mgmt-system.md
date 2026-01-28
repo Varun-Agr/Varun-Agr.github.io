@@ -18,4 +18,4 @@ params:
 ## The content is used for the description of the project
 ---
 
-I developed an intern management system in-house which is tailored made to my needs. This system directly fed into another large-scale project of data integrity validation by human supervision. 
+We developed an intern management system in-house which is tailored made to my needs. This system directly fed into another large-scale project of data integrity validation by human supervision. 

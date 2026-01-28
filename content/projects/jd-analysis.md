@@ -11,8 +11,9 @@ params:
         btnText: "Case Study"
         URL: "#"
     image:
-        src: "images/projects/jd/single_profile_bar.png"
-        scale: 0.3
+        # src: "images/projects/jd/single_profile_bar.png"
+        src: "images/projects/jd/jd1.png"
+        scale: 0.8
     
 
 ## The content is used for the description of the project

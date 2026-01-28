@@ -11,7 +11,8 @@ params:
         btnText: "Case Study"
         URL: "#"
     image:
-        src: "images/projects/gaisfv1/technical_synthesis_data_pipeline.jpg"
+        # src: "images/projects/gaisfv1/technical_synthesis_data_pipeline.jpg"
+        src: "images/projects/gaisfv1/ga1.png"
         scale: 0.5
     
 

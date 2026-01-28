@@ -1,5 +1,10 @@
 /* Custom CSS overrides */
 
+/* Add rounded corners to all images */
+img {
+    border-radius: 10px;
+}
+
 /* Make social media icons in the banner bigger */
 .platform-links [class^=icon-] {
     font-size: 32px !important; /* Increased from 17px/19px */

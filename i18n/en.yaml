@@ -32,7 +32,7 @@
 
 ## Footer
 - id: "footer_notice"
-  translation: "© 2026. All rights reserved. Varun Agrawal. Made with Hugo and Adritian theme."
+  translation: "© 2026. All rights reserved. Varun Agrawal."
 
 - id: "language"
   translation: "Language"
@@ -41,11 +41,11 @@
   translation: "Toggle theme"
 
 - id: "theme_light"
-  translation: "Light"
+  translation: "☀️"
 - id: "theme_dark"
-  translation: "Dark"
+  translation: "🌙"
 - id: "theme_auto"
-  translation: "Auto"
+  translation: "🔄"
 
 ## Homepage head title
 - id: "head_title"
