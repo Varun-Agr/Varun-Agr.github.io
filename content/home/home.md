@@ -99,3 +99,4 @@ centered="true"
 
 <script defer src="/js/scroll-animations.js"></script>
 <script defer src="/js/hiring-form.js"></script>
+<script defer src="/js/contact-form.js"></script>
